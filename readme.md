@@ -15,3 +15,21 @@ Pour chaque nouvel page HTML, ajouter un ID à la balise main correspondant à v
             . Je lance la commande : sass --watch css/files_import.scss style.css
             . Au tout début de mon fichier j'inscris ma déclaration d'id concernant ma page : 
                 . #login { ... }
+
+
+
+Coder sa feature :
+
+1/ Je choisis ma feature
+2/ Exemple : j'ai choisi de coder la page de profil
+3/ Je clique sur le nom de la branche actuelle en bas à gauche de vs code.
+4/ S'ouvre dans la bar en haut au milieu le possiblité de "CREER UNE BRANCHE A PARTIR DE :"
+5/ je clique sur cette option et je déclare le nom de ma branche. 
+    -> le nom doit correspondre à la feature sur laquelle je suis positionné(e).
+
+6/ Une fois que j'ai terminé de coder, je demande à deux personnes du groupe de revoir mon code, et ensuite si c'est ok je merge sur dev.
+
+7/ Pour merge ma branche sur dev 
+    . : je me positionne sur la branche dev 
+    .. : j'utilise la commande : git merge profilpage
+    
