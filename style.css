@@ -8,7 +8,7 @@ header {
   width: 100%;
   height: 10vh;
 }
-header #navBarAcceuil {
+header #navBarConnecter {
   display: flex;
   flex-direction: row;
   background-color: #006060;
@@ -17,29 +17,66 @@ header #navBarAcceuil {
   justify-content: space-between;
   align-items: center;
 }
-header #navBarAcceuil #logo {
+header #navBarConnecter #logo {
   display: flex;
   height: 80%;
   width: 90px;
   padding-left: 2%;
 }
-header #navBarAcceuil #logo img {
+header #navBarConnecter #logo img {
   width: 100%;
   height: 100%;
 }
-header #navBarAcceuil #searchBar {
+header #navBarConnecter #searchBar {
+  display: flex;
+  height: 40%;
+  width: 40%;
+}
+header #navBarConnecter #searchBar input {
+  width: 40%;
+}
+header #navBarConnecter #searchBar input::placeholder {
+  text-align: center;
+}
+header #navBarConnecter #searchBar button {
+  width: 20%;
+}
+header #navBarConnecter #searchBar p {
+  margin: 0 10%;
+  align-self: center;
+}
+header #navBarNonConnecter {
+  display: flex;
+  flex-direction: row;
+  background-color: #006060;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navBarNonConnecter #logo {
+  display: flex;
+  height: 80%;
+  width: 90px;
+  padding-left: 2%;
+}
+header #navBarNonConnecter #logo img {
+  width: 100%;
+  height: 100%;
+}
+header #navBarNonConnecter #searchBar {
   display: flex;
   padding-right: 10%;
   height: 40%;
   width: 30%;
 }
-header #navBarAcceuil #searchBar input {
+header #navBarNonConnecter #searchBar input {
   width: 80%;
 }
-header #navBarAcceuil #searchBar input::placeholder {
+header #navBarNonConnecter #searchBar input::placeholder {
   text-align: center;
 }
-header #navBarAcceuil #searchBar button {
+header #navBarNonConnecter #searchBar button {
   width: 20%;
 }
 
