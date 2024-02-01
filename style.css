@@ -57,6 +57,90 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+header #navBarConnecter {
+  display: flex;
+  flex-direction: row;
+  background-color: #006060;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navBarConnecter #logo {
+  display: flex;
+  height: 80%;
+  width: 90px;
+  padding-left: 2%;
+}
+header #navBarConnecter #logo img {
+  width: 100%;
+  height: 100%;
+}
+header #navBarConnecter #searchBar {
+  display: flex;
+  height: 40%;
+  width: 40%;
+}
+header #navBarConnecter #searchBar input {
+  width: 40%;
+}
+header #navBarConnecter #searchBar input::placeholder {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+header #navBarConnecter #searchBar button {
+  width: 20%;
+}
+header #navBarConnecter #searchBar p {
+  margin: 0 10%;
+  align-self: center;
+  color: white;
+}
+header #navBarNonConnecter {
+  display: flex;
+  flex-direction: row;
+  background-color: #006060;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navBarNonConnecter #logo {
+  display: flex;
+  height: 80%;
+  width: 90px;
+  padding-left: 2%;
+}
+header #navBarNonConnecter #logo img {
+  width: 100%;
+  height: 100%;
+}
+header #navBarNonConnecter #searchBar {
+  display: flex;
+  padding-right: 10%;
+  height: 40%;
+  width: 30%;
+}
+header #navBarNonConnecter #searchBar input {
+  width: 80%;
+}
+header #navBarNonConnecter #searchBar input::placeholder {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+header #navBarNonConnecter #searchBar button {
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
