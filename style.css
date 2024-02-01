@@ -35,13 +35,18 @@ header #navBarConnecter #searchBar {
 }
 header #navBarConnecter #searchBar input {
   width: 40%;
+  border: none;
+}
+header #navBarConnecter #searchBar input:focus {
+  outline: none;
+  background-color: #EFFEFE;
 }
 header #navBarConnecter #searchBar input::placeholder {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-header #navBarConnecter #searchBar button {
-  width: 20%;
+header #navBarConnecter #searchBar i {
+  color: white;
 }
 header #navBarConnecter #searchBar p {
   margin: 0 10%;
@@ -82,6 +87,15 @@ header #navBarNonConnecter #searchBar input::placeholder {
 }
 header #navBarNonConnecter #searchBar button {
   width: 20%;
+}
+
+button {
+  width: 20%;
+  background-color: #DAA520;
+  border: none;
+}
+button:hover {
+  background-color: #DAAD3C;
 }
 
 /*# sourceMappingURL=style.css.map */
