@@ -10,7 +10,7 @@ header {
     height: 10vh;
     font-family: 'Montserrat', sans-serif;
 
-    #navBarConnecter{
+    #navBarConnecter {
         display: flex;
         flex-direction: row;
         background-color: #006060;
@@ -36,9 +36,18 @@ header {
             height: 40%;
             width: 40%;
 
-
+            button {
+                width: 20%;
+            }
+            
             input {
                 width: 40%;
+                border: none;
+
+                &:focus {
+                    outline: none;
+                    background-color: #EFFEFE;
+                }
 
                 &::placeholder {
                     text-align: center;
@@ -47,21 +56,21 @@ header {
 
             }
 
-            button {
-                width: 20%;
-            
+            i {
+                color: white;
             }
-            p{
-              margin: 0 10% ;
-              align-self: center;
-              color: white;
+
+            p {
+                margin: 0 10%;
+                align-self: center;
+                color: white;
             }
-            
+
         }
-        
+
     }
 
-    
+
 
 
     #navBarNonConnecter {

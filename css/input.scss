@@ -1,0 +1,14 @@
+input {
+    border: none;
+
+    &:focus {
+        outline: none;
+        background-color: #EFFEFE;
+    }
+
+    &::placeholder {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
