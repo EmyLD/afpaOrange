@@ -1,4 +1,84 @@
-#login {
+#mainlogin {
+
+    font-family: montserrat;
+    font-size: 20px;
+    color: white;
+    background-color: #008080;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 150px 100px 150px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .blockmain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .blocktext,
+        .blocklog {
+            background-color: #007070;
+            width: 40%;
+            height: auto;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blocktext {
+
+            h1 {
+                font-size: 70px;
+            }
+
+        }
+
+        .blocklog {
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                // input {
+                //     width: 15vw;
+                //     height: 3vh;
+                // }
+
+                .buttonsend {
+                    font-size: 20px;
+                    width: 10vw;
+                    color: white;
+                    border: none;
+                    background-color: #DAA520;
+                }
+            }
+
+            // form input {
+            //     width: 15vw;
+            //     height: 3vh;
+            // }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    }
+
+
+    .blocklog a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+    }
 
 
 
@@ -13,6 +93,4 @@
 
 
 
-
-    
 }

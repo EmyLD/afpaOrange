@@ -1,5 +1,62 @@
-#login h1 {
-  background-color: white;
+#mainlogin {
+  font-family: montserrat;
+  font-size: 20px;
+  color: white;
+  background-color: #008080;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 150px 100px 150px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#mainlogin .blockmain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#mainlogin .blocktext,
+#mainlogin .blocklog {
+  background-color: #007070;
+  width: 40%;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mainlogin form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#mainlogin form input {
+  width: 15vw;
+  height: 3vh;
+}
+#mainlogin h1 {
+  font-size: 70px;
+}
+#mainlogin h2 {
+  font-size: 24px;
+}
+#mainlogin .buttonsend {
+  font-size: 20px;
+  width: 10vw;
+  color: white;
+  border: none;
+  background-color: #DAA520;
+}
+#mainlogin .blocklog a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */
