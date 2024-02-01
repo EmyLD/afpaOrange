@@ -1,0 +1,10 @@
+button {
+    background-color: #DAA520;
+    border: none;
+
+    &:hover {
+        background-color: #DAAD3C;
+        //box-shadow: 0px 0px 10px 0px #DAAD3C;
+    }
+
+}
