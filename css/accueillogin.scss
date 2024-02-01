@@ -64,6 +64,14 @@ body {
                     border: none;
                     background-color: #DAA520;
                 }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: row;
+                    align-self: flex-start;
+                }
             }
 
             // form input {
@@ -76,17 +84,6 @@ body {
             }
         }
     }
-
-
-    .blocklog a {
-        color: white;
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-self: flex-start;
-    }
-
-
 
 
 }

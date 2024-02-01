@@ -50,15 +50,15 @@ body {
   border: none;
   background-color: #DAA520;
 }
-#mainlogin .blockmain .blocklog h2 {
-  font-size: 24px;
-}
-#mainlogin .blocklog a {
+#mainlogin .blockmain .blocklog form a {
   color: white;
   text-decoration: none;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
+}
+#mainlogin .blockmain .blocklog h2 {
+  font-size: 24px;
 }
 
 body {
