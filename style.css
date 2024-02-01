@@ -7,6 +7,7 @@ body {
 header {
   width: 100%;
   height: 10vh;
+  font-family: "Montserrat", sans-serif;
 }
 header #navBarConnecter {
   display: flex;
@@ -37,6 +38,7 @@ header #navBarConnecter #searchBar input {
 }
 header #navBarConnecter #searchBar input::placeholder {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 header #navBarConnecter #searchBar button {
   width: 20%;
@@ -44,6 +46,7 @@ header #navBarConnecter #searchBar button {
 header #navBarConnecter #searchBar p {
   margin: 0 10%;
   align-self: center;
+  color: white;
 }
 header #navBarNonConnecter {
   display: flex;
@@ -75,6 +78,7 @@ header #navBarNonConnecter #searchBar input {
 }
 header #navBarNonConnecter #searchBar input::placeholder {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 header #navBarNonConnecter #searchBar button {
   width: 20%;
