@@ -33,6 +33,9 @@ header #navBarConnecter #searchBar {
   height: 40%;
   width: 40%;
 }
+header #navBarConnecter #searchBar button {
+  width: 20%;
+}
 header #navBarConnecter #searchBar input {
   width: 40%;
   border: none;
@@ -90,7 +93,6 @@ header #navBarNonConnecter #searchBar button {
 }
 
 button {
-  width: 20%;
   background-color: #DAA520;
   border: none;
 }
