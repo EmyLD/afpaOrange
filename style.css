@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #mainlogin {
   font-family: montserrat;
   font-size: 20px;
@@ -18,8 +24,8 @@
   justify-content: space-between;
   align-items: center;
 }
-#mainlogin .blocktext,
-#mainlogin .blocklog {
+#mainlogin .blockmain .blocktext,
+#mainlogin .blockmain .blocklog {
   background-color: #007070;
   width: 40%;
   height: auto;
@@ -28,28 +34,24 @@
   flex-direction: column;
   align-items: center;
 }
-#mainlogin form {
+#mainlogin .blockmain .blocktext h1 {
+  font-size: 70px;
+}
+#mainlogin .blockmain .blocklog form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-#mainlogin form input {
-  width: 15vw;
-  height: 3vh;
-}
-#mainlogin h1 {
-  font-size: 70px;
-}
-#mainlogin h2 {
-  font-size: 24px;
-}
-#mainlogin .buttonsend {
+#mainlogin .blockmain .blocklog form .buttonsend {
   font-size: 20px;
   width: 10vw;
   color: white;
   border: none;
   background-color: #DAA520;
+}
+#mainlogin .blockmain .blocklog h2 {
+  font-size: 24px;
 }
 #mainlogin .blocklog a {
   color: white;
@@ -57,6 +59,8 @@
   display: flex;
   flex-direction: row;
   align-self: flex-start;
+}
+
 body {
   margin: 0;
   padding: 0;
