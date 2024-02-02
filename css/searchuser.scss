@@ -1,0 +1,73 @@
+#searchUser {
+
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+
+    h1 {
+        text-align: center;
+    }
+
+    #searchArea {
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 90vw;
+        margin: auto;
+        border: 10px;
+    }
+
+    #userForm {
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+        width: 90%;
+        border: 10px;
+        padding: 10vh;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+
+        #userPhoto {
+            width: 20vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            background-color: rgb(238, 161, 197);
+
+            &img {
+                height: 50vh;
+                width: auto;
+            }
+        }
+
+        #userInfos {
+            width: 70vw;
+            background-color: rgb(161, 216, 216);
+
+            & label,
+            & input {
+                padding: 10px;
+                width: 40%;
+                background-color: rgb(123, 7, 201);
+                border: none;
+
+            }
+
+            & label {
+                text-decoration: double;
+            }
+
+            & input {
+                align-items: center;
+            }
+        }
+
+
+    }
+}
