@@ -1,5 +1,4 @@
 #searchUser {
-
     display: flex;
     flex-direction: column;
     width: 90vw;
@@ -9,65 +8,82 @@
         text-align: center;
     }
 
+    p {
+        margin-bottom: 5px;
+    }
+
     #searchArea {
         display: flex;
-        flex-direction: column;
-        background-color: blue;
-        justify-content: center;
         align-items: center;
-        height: 10vh;
+        height: 15vh;
         width: 90vw;
         margin: auto;
-        border: 10px;
+        margin-bottom: 10px;
+        border: 20px;
+        border-color: #006060;
+        padding: 20px;
+        padding-left: 15%;
+        background-color: rgb(212, 211, 211);
+
+        & label {
+            margin-left: 20px;
+        }
+
+        #btnSearchForm0 {
+            margin-left: 20px;
+            width: 20vw;
+            padding-right: 0%;
+            border-right: 0%;
+        }
+
+        #btnSearchForm {
+            background-color: #DAA520;
+            padding-left: 0%;
+            border-left: 0%;
+        }
+        #message{
+            color: red;
+        }
+
     }
 
     #userForm {
         display: flex;
-        flex-direction: row;
-        height: 60vh;
-        width: 90%;
+        flex-wrap: wrap;
+        height: 50vh;
+        width: 90vw;
         border: 10px;
-        padding: 10vh;
-        justify-content: center;
-        align-items: center;
-        background-color: green;
+        padding: 20px;
+        justify-content: space-evenly;
+        // align-items: normal;
+        background-color: #006060;
 
         #userPhoto {
-            width: 20vw;
+            width: 20%;
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-grow: 1;
-            background-color: rgb(238, 161, 197);
 
-            &img {
-                height: 50vh;
+            & img {
+                height: 30%;
                 width: auto;
+                border-radius: 40px;
             }
         }
 
-        #userInfos {
-            width: 70vw;
-            background-color: rgb(161, 216, 216);
-
-            & label,
-            & input {
-                padding: 10px;
-                width: 40%;
-                background-color: rgb(123, 7, 201);
-                border: none;
-
-            }
-
-            & label {
-                text-decoration: double;
-            }
-
-            & input {
-                align-items: center;
-            }
+        & #labels,
+        & #inputs {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-right: 10px;
+            justify-content: space-around;
+            border: none;
         }
 
+        & #labels {
+            width: 20%;
+        }
 
     }
 }
