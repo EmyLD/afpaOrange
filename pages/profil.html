@@ -7,12 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../style.css" rel="stylesheet">
     <meta name="description" content="Page pour aficher un profil d'un utilisateur du site d'achat de livre d'ocasion">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">    
     <title>Page de profil</title>
 </head>
 
 <body>
     <header>
+        <nav id="navBarConnecter">
+            <div id="logo">
+                <img src="../assets/Logo site.jpg" alt="">
+            </div>
+            <div id="searchBar">
+                <input type="text" placeholder="Livre ou style">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <p>Pseudo</p>
+            </div>
 
+        </nav>
     </header>
     <main id="searchUser">
         <h1>Page de profil</h1>
@@ -27,12 +42,12 @@
                 <button type="submit" title="Bouton de recherche avec icon" id="btnSearchForm">
                     <i class="fa fa-search"></i>
                 </button>
-                <p id="message">gdgfd</p>
+                <p id="message"></p>
             </form>
         </div>
         <form id="userForm" >
             <div id="userPhoto">
-                <img src="../images/carla.jpg" alt="Photo d'un utilisateur">
+                <img id="myImage" src="../images/nophoto.jpg" alt="Photo d'un utilisateur">
             </div>
             <div id="labels">
                 <label for="nom">NOM</label>
