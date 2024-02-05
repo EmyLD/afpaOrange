@@ -1,0 +1,91 @@
+#searchUser {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    #searchArea {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 10px;
+        border: 20px;
+        border-color: #006060;
+        padding: 20px;
+        background-color: rgb(212, 211, 211);
+
+        & label {
+            margin-left: 20px;
+        }
+
+        #btnSearchForm0 {
+            margin-left: 20px;
+            width: 20vw;
+            padding-right: 0%;
+            border-right: 0%;
+        }
+
+        #btnSearchForm {
+            background-color: #DAA520;
+            padding-left: 0%;
+            border-left: 0%;
+        }
+
+        #message {
+            color: red;
+            text-align: center;
+        }
+
+    }
+
+    #userForm {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+        width: 90vw;
+        border: 10px;
+        padding: 20px;
+        justify-content: space-evenly;
+        background-color: #006060;
+
+        #userPhoto {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & img {
+                height: 30%;
+                width: auto;
+                border-radius: 40px;
+            }
+        }
+
+        & #labels,
+        & #inputs {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-right: 10px;
+            justify-content: space-around;
+            border: none;
+        }
+
+        & #labels {
+            width: 20%;
+        }
+
+    }
+}

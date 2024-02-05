@@ -11,4 +11,4 @@
             . J'importe ce fichier dans files_import.scss
             . Je lance la commande : sass --watch css/files_import.scss style.css
             . Au tout début de mon fichier j'inscris ma déclaration d'id concernant ma page : 
-                . ex : #login { ... }
+                . #login { ... }
