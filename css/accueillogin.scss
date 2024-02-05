@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainlogin {
+
+    font-family: montserrat;
+    font-size: 20px;
+    color: white;
+    background-color: #008080;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 150px 100px 150px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .blockmain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .blocktext,
+        .blocklog,
+        .blocksignup,
+        .blocksignout,
+        .blockprofile {
+            background-color: #007070;
+            height: auto;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blocktext {
+            width: 40%;
+
+            h1 {
+                font-size: 70px;
+            }
+
+        }
+
+        .blocklog {
+            text-align: center;
+            margin: auto;
+            width: 20%;
+
+            h2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 24px;
+            }
+
+            #msgDeconnexion {
+                
+                text-align: center;
+                margin: 15px 0;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    width: 15vw;
+                    height: 3vh;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    &::placeholder {
+                        font-family: montserrat;
+                    }
+                }
+
+                button {
+                    font-family: montserrat;
+                    font-size: 20px;
+                    width: 10vw;
+                    color: white;
+                    border: none;
+                    background-color: #DAA520;
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+        }
+
+        .blocksignup {
+            display: none;
+            width: 20%;
+
+            h2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 24px;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    width: 15vw;
+                    height: 3vh;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    border: none;
+
+                    &:focus {
+                        outline: none;
+                        background-color: #EFFEFE;
+                    }
+
+                    &::placeholder {
+                        font-family: montserrat;
+                    }
+                }
+
+                button {
+                    font-family: montserrat;
+                    font-size: 20px;
+                    width: 10vw;
+                    color: white;
+                    border: none;
+                    background-color: #DAA520;
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .blocksignout {
+            display: none;
+            width: 20%;
+
+            .linkconnection {
+                display: flex;
+                flex-direction: row;
+
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: row;
+                    align-self: flex-start;
+                    padding: 30px;
+                }
+            }
+
+        }
+
+        .blockprofile {
+            display: none;
+            width: 20%;
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    padding-bottom: 30px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+
+
+}
