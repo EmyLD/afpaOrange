@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav id="navBarNonConnecter">
+        <div id="logo">
+          <img src="../assets/Logo site.jpg" alt="" />
+        </div>
+        <div id="searchBar">
+          <input type="text" placeholder="Livre ou style" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
     <main id="searchbook">
-        <h1> Vous recherchez un livre en particulier ?</h1>
-        <form id="form" class="box">
-            <div class="ligne">
-                <label for="title">Titre</label>
-                <input id="name" name="title" type="text" placeholder="Exemple : Les Misérables">
-            </div>
-            <div class="ligne">
-                <label for="autorName">Nom de l'auteur</label>
-                <input name="autorName" type="text" placeholder="Exemple : Victor Hugo">
-            </div>
-            <div class="bouton">
-                <button type="submit">Rechercher</button>
-            </div>
-            <div class="resultat">
-                <p>Résultat de votre recherche :</p>
-            </div>
-        </form>
+      <h1>Vous recherchez un livre en particulier ?</h1>
+      <form id="form" class="box">
+        <div class="ligne">
+          <label for="title">Titre</label>
+          <input
+            id="name"
+            name="title"
+            type="text"
+            placeholder="Exemple : Les Misérables"
+          />
+        </div>
+        <div class="ligne">
+          <label for="autorName">Nom de l'auteur</label>
+          <input
+            name="autorName"
+            type="text"
+            placeholder="Exemple : Victor Hugo"
+          />
+        </div>
+        <div class="bouton">
+          <button type="submit">Rechercher</button>
+        </div>
+        <div class="resultat">
+          <p>Résultat de votre recherche :</p>
+        </div>
+      </form>
     </main>
     <script src="../scripts/shearchbook.js"></script>
-</body>
-
+  </body>
 </html>
