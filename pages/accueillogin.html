@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53028cc671.js" crossorigin="anonymous"></script>
+    <script defer src="../scripts/accueillogin.js"></script>
 </head>
 
 <body>
@@ -25,6 +27,7 @@
             </div>
         </nav>
     </header>
+
     <main id="mainlogin">
         <div class="blockmain">
             <section class="blocktext">
@@ -36,16 +39,49 @@
                     communauté engagée sont à l’honneur.<br>
                     Rejoignez-nous pour explorer, échanger et construire ensemble une bibliothèque riche et variée !</p>
             </section>
-            <section class="blocklog">
+            <section class="blocklog" id="blocklog">
                 <h2>Connexion</h2>
+                <p id="msgDeconnexion">Vous avez bien été déconnecté</p>
                 <form action="" method="post">
                     <label for="emailOrPseudo"></label>
                     <input type="text" id="emailOrPseudo" name="emailOrPseudo" placeholder="Email ou Pseudo">
                     <label for="password"></label>
                     <input type="password" id="password" name="password" placeholder="Mot de passe" required>
-                    <input class="buttonsend" type="submit" value="Se connecter">
+                    <button type="submit" onclick="validerConnexion()" value="Se connecter">Se connecter</button>
                 </form>
-                <a href="#">S'inscrire</a>
+                <a href="#" onclick="inscription()">S'inscrire</a>
+            </section>
+            <section class="blocksignup" id="blocksignup">
+                <h2>S'inscrire</h2>
+                <form action="" method="post">
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Votre email" required>
+                    <label for="pseudo"></label>
+                    <input type="pseudo" id="pseudo" name="pseudo" placeholder="Votre pseudo" required>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+                    <label for="confirmPassword"></label>
+                    <input type="confirmPassword" id="confirmPassword" name="confirmPassword"
+                        placeholder="Confirmez votre mot de passe" required>
+                    <button type="submit" onclick="validerInscription()" value="Valider inscription">Valider</button>
+                </form>
+            </section>
+            <section class="blockprofile" id="blockprofile">
+                <img src="#">
+                <ul>
+                    <li><a href="#">Page de profil</a></li>
+                    <li><a href="#">Mes commandes</a></li>
+                    <li><a href="#">Mes livres</a></li>
+                    <li><a href="#">Vendre un livre</a></li>
+                </ul>
+                <a href="#" onclick="deconnexion()">Déconnexion</a>
+            </section>
+            <section class="blocksignout">
+                <p>Vous avez bien été déconnecté</p>
+                <div class="linkconnection">
+                    <a href="#">Se connecter</a>
+                    <a href="#">S'inscrire</a>
+                </div>
             </section>
         </div>
     </main>
