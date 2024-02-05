@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add book</title>
+    <script type="module" src="../scripts/addProducts.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="addBooks">
+        <h1>On recycle un nouveau livre ?</h1>
+        <form action="" id="submit">
+            <section>
+                <label for="title"> Titre du livre :</label>
+                <input type="text" name="title" id="title" required minlength="3">
+            </section>
+
+
+            <section>
+                <label for="category">Choisir un genre :</label>
+                <select id="category">
+                    <option value="">--Choissisez une option--</option>
+                    <option value="horror">Horror</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="thriller">Thriller</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="biography">Biography</option>
+                    <option value="history">History</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="author">Auteur / Autrice </label>
+                <input type="text" id="author" name="author" required minlength="5">
+            </section>
+
+
+            <button type="submit" id="btn-submit">I'm good !</button>
+        </form>
+    </main>
+
+
+</body>
+
+</html>

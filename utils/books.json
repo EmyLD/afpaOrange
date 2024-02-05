@@ -1,0 +1,53 @@
+[
+    {
+        "category": "Technology",
+        "name": "John Doe",
+        "title": "Software Engineer"
+    },
+    {
+        "category": "Marketing",
+        "name": "Jane Smith",
+        "title": "Marketing Manager"
+    },
+    {
+        "category": "Finance",
+        "id": 3,
+        "name": "Alice Johnson",
+        "title": "Financial Analyst"
+    },
+    {
+        "category": "Sales",
+        "name": "Bob Williams",
+        "title": "Sales Representative"
+    },
+    {
+        "category": "Design",
+        "name": "Eva Davis",
+        "title": "Graphic Designer"
+    },
+    {
+        "category": "Human Resources",
+        "name": "Michael Brown",
+        "title": "Human Resources Specialist"
+    },
+    {
+        "category": "Customer Service",
+        "name": "Sophia Taylor",
+        "title": "Customer Support Representative"
+    },
+    {
+        "category": "Project Management",
+        "name": "Ryan Martinez",
+        "title": "Project Manager"
+    },
+    {
+        "category": "Research",
+        "name": "Olivia Anderson",
+        "title": "Research Scientist"
+    },
+    {
+        "category": "Operations",
+        "name": "William Wilson",
+        "title": "Operations Manager"
+    }
+]
