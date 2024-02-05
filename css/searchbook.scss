@@ -1,0 +1,117 @@
+#searchbook {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   
+    h1 {
+        justify-content: center;
+        display: flex;
+        margin-bottom: 100px;
+        margin-top: 200px;
+        font-weight: 100;
+    }
+    .box {
+        display: flex;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 300px;
+        background-color: #006060;
+.ligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0 0 50px;
+    padding-right: 50px;
+    max-width: 100%;    
+}
+label {
+    font-size: 26px;
+}
+input {
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+// button {
+//     display: flex;
+//     background-color: #DAA520;
+//     border-radius: 8px;
+//     height: 30px;
+//     width: 120px;
+//     align-items: center;
+//     justify-content: center;
+//     border: none; 
+//     color: white; 
+//     animation-name: buttonAnimation;
+//     animation-duration: 1s;
+//     animation-fill-mode: backwards;
+//     @keyframes buttonAnimation {
+//         100% {
+//             background-color: #ffbb00;
+//             color: black;
+//             cursor: pointer;
+//             width: 100%;
+//         }
+//     }
+    
+//     .element:hover {
+//         animation: buttonAnimation 1s forwards;
+//     }
+// }
+
+@keyframes buttonAnimation {
+    100% {
+        background-color: #ffbb00;
+        cursor: pointer;
+        width: 125px;
+    }
+}
+
+@keyframes buttonAnimationReverse {
+    0% {
+        background-color: #ffbb00;
+        cursor: pointer;
+        width: 125px;
+    }
+    100% {
+        background-color: #DAA520;
+        color: white;
+        cursor: default;
+        width: 120px;
+    }
+}
+
+button {
+    display: flex;
+    background-color: #DAA520;
+    border-radius: 8px;
+    height: 30px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    color: white; 
+}
+
+button:hover {
+    animation: buttonAnimation 0.1s forwards;
+}
+
+button:not(:hover) {
+    animation: buttonAnimationReverse 0.1s forwards;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+    }
+}
