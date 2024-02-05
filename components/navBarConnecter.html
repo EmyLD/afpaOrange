@@ -23,12 +23,26 @@
                 <button>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <p>Pseudo</p>
+                <div id="profil_menu_deroulant">
+                    <p id="profil_navBar" onclick="myFunction()">Pseudo</p>
+                    <label for="profil_navBar"></label>
+                    <ul id="menu_deroulant">
+                        <div>
+                            <img src="../assets/nathan.jpg" alt="">
+                        </div>
+                        <li id="userName">Nathan</li>
+                        <li>Page de profil</li>
+                        <li>Mes commandes</li>
+                        <li>Mes Livres</li>
+                        <li>Vendre un Livre</li>
+                        <li id="deconnexion">Déconnexion</li>
+                    </ul>
+                </div>
             </div>
 
         </nav>
     </header>
 
 </body>
-
+<script src="../scripts/navBarConnecter.js"></script>
 </html>

@@ -34,14 +34,14 @@ header {
         #searchBar {
             display: flex;
             height: 40%;
-            width: 40%;
+            width: 50%;
 
             button {
                 width: 20%;
             }
             
             input {
-                width: 40%;
+                width: 35%;
                 border: none;
 
                 &:focus {
@@ -62,16 +62,80 @@ header {
 
             p {
                 margin: 0 10%;
+                padding: 5px;
+                width: 50%;
                 align-self: center;
+                text-align: center;
                 color: white;
+                cursor: pointer;
+                &:hover, &:focus{
+                    background-color: #007070; 
+                }
             }
 
+            #profil_menu_deroulant{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 45%;
+                height: 100%;
+                
+                label{
+                    display: block;
+                    position: absolute;                  
+    
+                }
+
+                #menu_deroulant{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 30px;
+                    width: 100%;
+                    background-color: #006060;
+                    line-height: 3;
+                    font-size: 14px;
+                    text-decoration: none;
+                    list-style-type: none;
+                    padding: 0;
+                    
+
+                    div{
+                        width: 120px;
+                        height: 120px;
+                        align-self: center;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                            object-fit: contain;
+
+                        }
+                    }
+                    
+                    
+                    #userName{
+                      
+                        align-self: center;
+                        font-size: 16px;
+                        padding-bottom: 50px;
+                    }
+                    #deconnexion{
+                        align-self: end;
+                        padding-right: 10px;
+                    }
+
+                }
+            }
+
+           
+            
         }
 
     }
 
 
-
+                    //NavBar lorsque le User n'est pas connecté//
 
     #navBarNonConnecter {
         display: flex;

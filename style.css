@@ -31,13 +31,13 @@ header #navBarConnecter #logo img {
 header #navBarConnecter #searchBar {
   display: flex;
   height: 40%;
-  width: 40%;
+  width: 50%;
 }
 header #navBarConnecter #searchBar button {
   width: 20%;
 }
 header #navBarConnecter #searchBar input {
-  width: 40%;
+  width: 35%;
   border: none;
 }
 header #navBarConnecter #searchBar input:focus {
@@ -53,8 +53,58 @@ header #navBarConnecter #searchBar i {
 }
 header #navBarConnecter #searchBar p {
   margin: 0 10%;
+  padding: 5px;
+  width: 50%;
   align-self: center;
+  text-align: center;
   color: white;
+  cursor: pointer;
+}
+header #navBarConnecter #searchBar p:hover, header #navBarConnecter #searchBar p:focus {
+  background-color: #007070;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant label {
+  display: block;
+  position: absolute;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant #menu_deroulant {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+  background-color: #006060;
+  line-height: 3;
+  font-size: 14px;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant #menu_deroulant div {
+  width: 120px;
+  height: 120px;
+  align-self: center;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant #menu_deroulant div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant #menu_deroulant #userName {
+  align-self: center;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+header #navBarConnecter #searchBar #profil_menu_deroulant #menu_deroulant #deconnexion {
+  align-self: end;
+  padding-right: 10px;
 }
 header #navBarNonConnecter {
   display: flex;
